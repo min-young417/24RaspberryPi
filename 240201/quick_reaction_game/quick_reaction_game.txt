@@ -3,6 +3,8 @@
 
 led가 10회 깜빡이는 동안 각 색에 대응하는 버튼을 누른다
 * 빨강 -> SW2, 초록 -> SW3, 파랑 -> SW4
+* led 연결 : LED_RED - GPIO_04, LED_GREEN - GPIO_05, LED_BLUE - GPIO_06
+* 버튼 연결 : SW2 - GPIO_23, SW3 - GPIO_24, SW4 - GPIO_25
   빨간 led가 켜지면 SW2 버튼을 누르는 식에 순발력 게임 
 
 조건1 : 색은 랜덤으로 출력된다
